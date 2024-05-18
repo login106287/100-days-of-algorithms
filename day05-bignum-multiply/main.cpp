@@ -15,7 +15,7 @@ void del_zero(vi &a) {
     reverse(a.begin(), a.end());
 }
 
-int int_to_vi(int n) {
+vi int_to_vi(int n) {
     vi res;
     if (n==0) {
         res.push_back(n);
@@ -61,6 +61,8 @@ int main()
     vi a,b;
     int n;
     cin >> a >> b >> n;
+
+
     cout << a*int_to_vi(n) << endl;
 
     cout << a*b << endl;
